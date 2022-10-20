@@ -1,6 +1,10 @@
 [[Frameworks]]
 About: https://symfony.com/what-is-symfony
 
+``` toc
+title: "## Table of Contents"
+```
+
 Symfony is an Open Source distributed PHP framework.
 
 ## A framework to simplify development

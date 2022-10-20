@@ -1,0 +1,93 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Git",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Linux",
+      "color": {
+        "a": 1,
+        "rgb": 14715730
+      }
+    },
+    {
+      "query": "path:Markdown",
+      "color": {
+        "a": 1,
+        "rgb": 8671968
+      }
+    },
+    {
+      "query": "path:Twig",
+      "color": {
+        "a": 1,
+        "rgb": 5410784
+      }
+    },
+    {
+      "query": "path:Nette",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Symfony",
+      "color": {
+        "a": 1,
+        "rgb": 14111456
+      }
+    },
+    {
+      "query": "path:Design Patterns",
+      "color": {
+        "a": 1,
+        "rgb": 14701145
+      }
+    },
+    {
+      "query": "path:Mongo",
+      "color": {
+        "a": 1,
+        "rgb": 7462994
+      }
+    },
+    {
+      "query": "path:CSS",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:Documentation",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.754768880208333,
+  "lineSizeMultiplier": 1.07936197916667,
+  "collapse-forces": false,
+  "centerStrength": 0.617594401041667,
+  "repelStrength": 7.71484375,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.8248151928965484,
+  "close": false
+}

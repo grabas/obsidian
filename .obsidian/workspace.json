@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "34b0d2d1f0a62b1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbfb071c85558ab5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f496ffc726d893a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frameworks/Symfony/Compiler Pass.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63edd8e30baf10e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "05161e6a25398f99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52e0e0b472b86e43",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "2adfce37946927dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84b78534b77811cf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "901220e0780737a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "21635b36de3c8162",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57c1ab9020a726d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Frameworks/Symfony/Compiler Pass.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8ec8812d36d83a62",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Frameworks/Symfony/Compiler Pass.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8df8ed996a303ea7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "90d0b61cccc74255",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Frameworks/Symfony/Compiler Pass.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "2f496ffc726d893a",
+  "lastOpenFiles": [
+    "Frameworks/Symfony/Compiler Pass.md",
+    "2022-10-20.md",
+    "Screenshot 2022-10-20 at 16.27.59.png",
+    "Frameworks/Symfony/Twig/Twig.md",
+    "Frameworks/Symfony/Twig/Looping.md",
+    "Design Patterns/MVC.md",
+    "Misc/Git.md",
+    "Git/Add Existing Repo.md",
+    "Table of Contents/Test.md",
+    "Frameworks/Symfony/Dependency Injection.md"
+  ]
+}
