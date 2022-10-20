@@ -82,8 +82,8 @@ class RemoteUserProviderFacade
 	            return $userProvider->getUser($request);  
 			}
 		}
-		
-		throw new InvalidProviderException();
+	
+		// get by email or throw new InvalidProviderException();
     }
     
 	public function addUserProvider(RemoteUserProviderInterface $userProvider)  
@@ -155,7 +155,7 @@ And voila! Seems to be quite a lot of steps for a complete setup but now every t
 For this example imagine you have a music app. This app naturally has a media player UI user interacts with and we would naturally want to track and log those interactions for recommendation engine, statistics, history etc.
 
 We would have to define some interaction types like Play, Pause, Skip, Stop, Seek and so on.
-One solution to process these interactions would look something like this. (Purposely ineefective)
+One solution to process these interactions would look something like this. (Purposely ineefective for demonstration purposes)
 
 ``` php
 	switch ($inteaction->getType()) {
@@ -255,7 +255,7 @@ class UserHistoryProcess implements InteractionProcessInterface
 }
 ```
 
-and whatever you want, need or can imagine :) Statistics like play, unique users, finished tracks, track retension et cetera ad infinitum ad nauseam
+and whatever you want, need or can imagine :) Statistics, unique users, finished tracks, track retension et cetera ad infinitum ad nauseam.
 
 ##### Facade
 
@@ -293,7 +293,7 @@ class InteractionTypeProcessor
 _instanceof:  
     App\Component\...\Interfaces\InteractionProcessInterface:  
     tags:  
-        - { name: 'app.interaction_process_interface_tag' }
+        - { name: 'app.interaction_process' }
 ```
 
 ##### Compiler Pass
@@ -311,7 +311,7 @@ class InteractionCompilerPass implements CompilerPassInterface
         $facade = $container->findDefinition(InteractionTypeProcessor::class);  
 
 		// Get tagged services
-        $taggedServices = $container->findTaggedServiceIds('app.interaction_process_interface_tag');  
+        $taggedServices = $container->findTaggedServiceIds('app.interaction_process');  
 
 		// Add every tagged service to the facade via adder method
         foreach ($taggedServices as $id => $tags) {  
@@ -337,7 +337,7 @@ class Kernel extends BaseKernel
     }    
 ```
 
-Now we have a flexible and easily expandable solution. To add a new process just define it and specify which type it accepts under the interface. Best paired with RabbitMQ Consumer so the interactions are queued properly :) 
+Now we have a flexible and easily expandable solution. To add a new process just create a class implementing the interface, define the process and specify which type it accepts. EZ! Best paired with RabbitMQ Consumer so the interactions are queued properly :) 
 
 ### Template
 
