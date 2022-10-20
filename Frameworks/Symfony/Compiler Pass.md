@@ -153,6 +153,8 @@ And voila! Seems to be quite a lot of steps for a complete setup but now every t
 ### Example 2 ("Processing something in multiple ways")
 
 For this example imagine you have a music app. This app naturally has a media player UI user interacts with and we would naturally want to track and log those interactions for recommendation engine, statistics, history etc.
+Let's assume we are structuring the data into something like a Mongo document on a fly
+(Structuring them on request from a multi-million SQL table takes forever).
 
 We would have to define some interaction types like Play, Pause, Skip, Stop, Seek and so on.
 One solution to process these interactions would look something like this. (Purposely ineefective for demonstration purposes)
