@@ -13,13 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Business/Coupon Markering.md",
-                "mode": "preview",
+                "file": "Frameworks/Symfony/Twig/Twig.md",
+                "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "04f2a42361b225a0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "f25fd1a4315cdd70",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Business/Coupon Markering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Business/Coupon Markering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Business/Coupon Markering.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -139,17 +152,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1995e2d6b0b9c1e3",
+  "active": "04f2a42361b225a0",
   "lastOpenFiles": [
-    "Business/Marketing.md",
-    "Business/Coupon Markering.md",
-    "Frameworks/Symfony/Compiler Pass.md",
-    "Frameworks/Symfony/Dependency Injection.md",
-    "Databases/Mongo/Aggregation Pipeline.md",
-    "Databases/Mongo/Example Document.md",
-    "Databases/Mongo/Mongo.md",
+    "Frameworks/Symfony/Doctrine.md",
     "Frameworks/Symfony/Twig/Twig.md",
-    "Frameworks/Symfony/Twig/Looping.md",
-    "Frameworks/Symfony/Twig/Blocks.md"
+    "Databases/Mongo/Mongo.md",
+    "Databases/MySQL/MySQL.md",
+    "Frameworks/Symfony/Twig/Conditions.md",
+    "Databases/Mongo/Aggregation Pipeline.md",
+    "Business/Coupon Markering.md",
+    "Business/Marketing.md",
+    "Frameworks/Symfony/Compiler Pass.md",
+    "Frameworks/Symfony/Dependency Injection.md"
   ]
 }

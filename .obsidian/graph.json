@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "path:MySQL",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
   "collapse-display": true,
@@ -83,11 +90,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.754768880208333,
   "lineSizeMultiplier": 1.07936197916667,
-  "collapse-forces": true,
-  "centerStrength": 0.617594401041667,
-  "repelStrength": 7.71484375,
+  "collapse-forces": false,
+  "centerStrength": 0.698893229166667,
+  "repelStrength": 11.767578125,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.7112793834805298,
+  "scale": 0.8560484607291898,
   "close": false
 }

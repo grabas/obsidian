@@ -14,6 +14,7 @@ Variations
 
 ``` twig
 {% if user.isRegistered == false %}
+{% if user.email is defined %}
 {% if not user.isRegistered %}
 {% if user.age > 21 and user.age < 65 %}
 {% if user.email is not null %}
